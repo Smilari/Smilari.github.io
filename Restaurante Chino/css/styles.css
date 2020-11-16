@@ -12,8 +12,7 @@ body {
 	border: 0;
 }
 
-/* Imagen del logo del restaurante */
-#logo-img {
+#logo-img { /* Imagen del logo del restaurante */
 	background: url('../images/restaurant-logo_large.png') no-repeat;
 	width: 150px;
 	height: 150px;
@@ -24,8 +23,7 @@ body {
 	padding-top: 25px;
 }
 
-/* Nombre de restaurante */
-.navbar-brand h1 { 
+.navbar-brand h1 { /* Nombre de restaurante */
 	font-family: 'Lora', serif;
 	color: #557c3e;
 	font-size: 1.5em;
@@ -41,8 +39,7 @@ body {
 	text-decoration: none;
 }
 
-/* Certificado del restaurante */
-.navbar-brand p {
+.navbar-brand p { /* Certificado del restaurante */
 	color: #000;
 	text-transform: uppercase;
 	font-size: .7em;
@@ -51,4 +48,45 @@ body {
 
 .navbar-brand span {
 	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #C73636;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+
+#phone a { /* Numero de telefono */
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div { /* Delivery */
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #C73636;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
 }
